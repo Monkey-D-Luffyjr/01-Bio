@@ -10,4 +10,21 @@ body{
     padding: 50px;
     color: whitesmoke;
     font-family: sans-serif;
+    font-size: 1.2em;
+    max-width: 600px;
+}
+
+span{
+    color: #fa7318;
+}
+
+button{
+    border: none;
+    border-radius: 5px;
+    padding: 15px 30px;
+    background-color: #fa7318;
+    margin-top: 20px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
 }
