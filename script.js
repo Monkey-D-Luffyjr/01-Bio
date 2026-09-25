@@ -6,4 +6,6 @@ function showMessage(){
 
 function randomMessage(){
     var quotes = ['My name\'s Moses', 'I loveeeee playing Local Warfare Re-portable with the bros', 'I also love watching anime and practicing Japaneseeee.']
+    var choice = quotes[Math.floor(Math.random() * quotes.length)];
+    alert("My random message is: " + choice);
 }
