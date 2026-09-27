@@ -1,0 +1,25 @@
+Aiight, so i was working with the relative paths and absolute paths 
+
+now i understand and know the difference
+
+a relative path is just like your backpack which has multiple pockets but you chose all your books to be in the same pocket therefore making them relative to each other in other words they're just files that share thesame folder/path.
+
+
+while absolute paths can be any destination or location of a file irrespective of which folder, so it can be in the desktop folder, the documents folder but you can request a file as long as you know the absolute path.
+
+
+Here's an error i ran into: so i had two files (page1.html, page2.html) in thesame folder which is the pages folder, so when i ran this code it ran perfectly but when i clicked the about me (when i was in the my interest page (page2.html), it didn't work)  because i tried calling an absolute path that didn't exist since the files were relative.
+
+
+ <div class="button-holder">
+            <button><a href="../main.html">Main Page</a></button>
+            <button><a href="pages/page1.html">About Me</a></button>
+        </div>
+
+
+
+Here's the solution
+ <div class="button-holder">
+            <button><a href="../main.html">Main Page</a></button>
+            <button><a href="page1.html">About Me</a></button>
+        </div>
