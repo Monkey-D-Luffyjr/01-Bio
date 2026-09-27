@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+</head>
+<body>
+    <form action="../tasks/submit.html">
+        <h1>Feedback</h1><br>
+        <label for="name">Player Name:</label>
+        <input type="text" name="playerid"><br>
+
+        <label for="genre">Favorite Genre:</label>
+        <select name="genreoptions">
+            <option value="horror">Horror</option>
+            <option value="rpg">Role-Play</option>
+            <option value="action">Action</option>
+            <option value="scifi">Sci-fi</option>
+        </select><br>
+
+        <label for="fav_game">Favorite Game:</label>
+        <input type="text" name="fav_game"><br>
+
+        <label for="feedback">Your thoughts:</label><br>
+        <textarea name="feedback" style="width: 200px; height: 100px;"></textarea><br>
+
+        <label for="rating">Rate the game: </label><br>
+        <input type="radio" name="rating" value="1">1-Star <br>
+        <input type="radio" name="rating" value="2">2-Star <br>
+        <input type="radio" name="rating" value="3">3-Star <br>
+        <input type="radio" name="rating" value="4">4-Star <br>
+        <input type="radio" name="rating" value="5">5-Star <br>
+    </form>
+</body>
+</html>
